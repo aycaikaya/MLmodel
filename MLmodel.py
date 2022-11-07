@@ -19,7 +19,7 @@ con=engine.connect()
 
 
 model_directory = 'model'
-location = '\\Users\\aycakaya\\PycharmProjects\\MLmodel\\model'
+location = 'MLmodel\\model'
 model_file_name = os.path.join(location, 'model.pkl')
 model_columns_file_name = os.path.join(location, 'model_columns.pkl')
 
